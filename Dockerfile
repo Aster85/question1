@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jdk-jammy
+FROM eclipse-temurin:17-jdk-jre
 WORKDIR /app
 COPY Multiply.java /app/Multiply.java
 RUN javac Multiply.java
